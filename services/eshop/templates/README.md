@@ -2,7 +2,7 @@
 
 Welcome to eShop on Web!
 
-This source code was scaffolded by a [Docker Application Template](https://github.com/sixeyed/eshoponweb-template) which also generated:
+This source code was scaffolded by a [Docker Application Template](https://github.com/dockersamples/eshoponweb-template) which also generated:
 
 - a [Dockerfile](./src/Web/Dockerfile) to build, test and package the web app;
 - a [Docker Compose](../docker-compose.yaml) file to run the app locally in containers;
@@ -58,7 +58,7 @@ The app is an ASP .NET Core MVC web app, with some core best practices for runni
 - [configuration files](./src/Web/Program.cs) are loaded from multiple locations, so they can be provided by the platform
 - there are [healthchecks](./src/Web/HealthChecks/ApiHealthCheck.cs) in the code which tell the container platform if the app is healthy
 
-You can edit the source code and click _Restart_ from Docker Application Designer to see your changes - try a simple UI change in [_Layout.cshtml](./src/Web/Views/Shared/_Layout.cshtml).
+You can edit the source code and click _Restart_ from Docker Application Designer to see your changes - try a simple UI change in [\_Layout.cshtml](./src/Web/Views/Shared/_Layout.cshtml).
 
 ## Deploy to Kubernetes
 
@@ -87,9 +87,9 @@ az aks browse --resource-group {{range .Services}}{{if eq "azure" .ID}}{{.Parame
 From here you can see:
 
 - the deployment generated from the Docker Compose file
-- the secret containing the CosmosDB connection string
+- the secret containing the SQL Server connection string
 - the pod running the demo app
-- the service with an external endpoint to access the app
+- the service with an external endpoint - this has a link you can use to access the app
 
 > You can continue to work on the code locally, push to GitHub and your changes will be deployed to AKS
 
