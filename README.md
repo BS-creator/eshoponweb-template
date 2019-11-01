@@ -4,7 +4,7 @@ Docker Application Template for deploying [eShopOnWeb](TODO) onto Azure Kubernet
 
 ## Pre-requisites
 
-1. You need a version of [Docker Desktop](https://www.docker.com/products/docker-desktop) with [Application Templates](https://blog.docker.com/2019/07/application-templates-docker-desktop-enterprise/) enabled.
+1. You need [Docker Desktop Enterprise](https://hub.docker.com/editions/community/docker-desktop-ent) which has the [Application Templates](https://blog.docker.com/2019/07/application-templates-docker-desktop-enterprise/) feature.
 
 > The demo is a Linux app, so on Windows you need to use Linux container mode
 
