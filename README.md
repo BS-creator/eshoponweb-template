@@ -12,7 +12,7 @@ Docker Application Template for deploying [eShopOnWeb](TODO) onto Azure Kubernet
 
 > If you've set your account to create private repos on push, make sure you have capacity for another repo
 
-3. Create a Service Principal in Azure. You can use the [Azure CLI](https://github.com/Azure/azure-cli):
+3. Create a Service Principal in Azure. You can use the [Azure CLI](https://github.com/Azure/azure-cli) or [Azure Cloud Shell](https://shell.azure.com):
 
 ```
 az ad sp create-for-rbac --name http://eshoponweb
