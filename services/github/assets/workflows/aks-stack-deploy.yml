@@ -1,9 +1,6 @@
 name: Deploy to AKS
 
-on:
-  push:
-    paths-ignore:
-      - "**/az-*.yml"
+on: push
 
 jobs:
   deploy:
