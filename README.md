@@ -2,6 +2,10 @@
 
 Docker Application Template for deploying [eShopOnWeb](TODO) onto Azure Kubernetes Service.
 
+> Check out the video here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N4hKrl2NYSo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Pre-requisites
 
 1. You need [Docker Desktop Enterprise](https://hub.docker.com/editions/community/docker-desktop-ent) which has the [Application Templates](https://blog.docker.com/2019/07/application-templates-docker-desktop-enterprise/) feature.
