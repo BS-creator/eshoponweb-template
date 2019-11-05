@@ -2,9 +2,7 @@
 
 Docker Application Template for deploying [eShopOnWeb](TODO) onto Azure Kubernetes Service.
 
-> Check out the video here:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N4hKrl2NYSo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> Check out [this video which shows the template in action](https://www.youtube.com/watch?v=N4hKrl2NYSo&feature=youtu.be)
 
 ## Pre-requisites
 
